@@ -1,13 +1,11 @@
 body{
     font-family: 'Readex Pro', sans-serif;
-    font-size: 36px;
 }
 
 .wrapper {
  display: flex;
  flex-direction: column;
  align-items: center;
-
 }
 
 h1 {
@@ -21,11 +19,11 @@ h1 {
     margin-bottom: 60px;
   }
   
-  .heading {
+.heading {
     margin-bottom: 60px;
   }
   
-  .chapter {
+.chapter {
     letter-spacing: 10px;
   }
   
