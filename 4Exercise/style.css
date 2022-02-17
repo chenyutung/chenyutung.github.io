@@ -2,7 +2,7 @@ body{
     color: navy;
 }
 
-.Wrapper {
+.wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
