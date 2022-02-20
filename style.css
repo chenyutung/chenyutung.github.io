@@ -1,8 +1,9 @@
 html {
     font-family: sans-serif;
     background-color:#EAD6C0;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='53' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>❗</text></svg>") 16 0,auto; /*!emojicursor.app*/
   }
-
+  
 h1{
     font-weight: 50;
     font-size: 5vw;
@@ -24,4 +25,5 @@ a {
     font-size: 36px;
     font-weight: 400;
     line-height: 1.4;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>🔥</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
