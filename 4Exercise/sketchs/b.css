@@ -1,15 +1,555 @@
+html {
+    font-size: 30px;
+}
 .grid-container {
     display: grid;
-    grid-template-columns:auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     gap: 10px;
-    border: 3px solid black;
+     /* border: 3px solid #2196F3; */
     padding: 10px;
   }
   
   .grid-container > div {
-    text-align: center;
+      /* border: 3px solid black; */
     padding: 20px 0;
-    font-size: 30px;
-    border: 1px solid salmon;
+    /* font-size: 30px; */
   }
 
+.chapter1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    
+  }
+
+.description1{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:left;
+    
+  }
+
+.page1{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:left;
+  }
+
+
+.chapter2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    
+  }
+
+.description2{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:left;
+    
+  }
+
+.page2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:left;
+  }
+
+  .chapter3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: center;
+    
+  }
+
+.description3{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    text-align:left;
+    
+  }
+
+.page3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    text-align:left;
+  }
+
+  .chapter4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    text-align: center;
+    
+  }
+
+.description4{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    text-align:left;
+    
+  }
+
+.page4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    text-align:left;
+  }
+
+  .chapter5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    text-align: center;
+    
+  }
+
+.description5{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    text-align:left;
+    
+  }
+
+.page5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    text-align:left;
+  }
+
+  .chapter6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    text-align: center;
+    
+  }
+
+.description6{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    text-align:left;
+    
+  }
+
+.page6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    text-align:left;
+  }
+
+  .chapter7{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    text-align: center;
+    
+  }
+
+.description7{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 14;
+    grid-row-end: 15;
+    text-align:left;
+    
+  }
+
+.page7{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 14;
+    grid-row-end: 15;
+    text-align:left;
+  }
+
+  .chapter8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 15;
+    grid-row-end: 16;
+    text-align: center;
+    
+  }
+
+.description8{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 16;
+    grid-row-end: 17;
+    text-align:left;
+    
+  }
+
+.page8{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 16;
+    grid-row-end: 17;
+    text-align:left;
+  }
+
+  .chapter9{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 17;
+    grid-row-end: 18;
+    text-align: center;
+    
+  }
+
+.description9{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 18;
+    grid-row-end: 19;
+    text-align:left;
+    
+  }
+
+.page9{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 18;
+    grid-row-end: 19;
+    text-align:left;
+  }
+
+  .chapter10{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 19;
+    grid-row-end: 20;
+    text-align: center;
+    
+  }
+
+.description10{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 20;
+    grid-row-end: 21;
+    text-align:left;
+    
+  }
+
+.page10{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 20;
+    grid-row-end: 21;
+    text-align:left;
+  }
+
+  .chapter10{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 21;
+    grid-row-end: 22;
+    text-align: center;
+    
+  }
+
+.description10{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 22;
+    grid-row-end: 23;
+    text-align:left;
+    
+  }
+
+.page10{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 22;
+    grid-row-end: 23;
+    text-align:left;
+  }
+
+  .chapter11{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 23;
+    grid-row-end: 24;
+    text-align: center;
+    
+  }
+
+.description11{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 24;
+    grid-row-end: 25;
+    text-align:left;
+    
+  }
+
+.page11{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 24;
+    grid-row-end: 25;
+    text-align:left;
+  }
+
+  .chapter12{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 25;
+    grid-row-end: 26;
+    text-align: center;
+    
+  }
+
+.description12{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 26;
+    grid-row-end: 27;
+    text-align:left;
+    
+  }
+
+.page12{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 26;
+    grid-row-end: 27;
+    text-align:left;
+  }
+
+  .chapter13{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 27;
+    grid-row-end: 28;
+    text-align: center;
+    
+  }
+
+.description13{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 28;
+    grid-row-end: 29;
+    text-align:left;
+    
+  }
+
+.page13{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 28;
+    grid-row-end: 29;
+    text-align:left;
+  }
+
+  .chapter14{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 29;
+    grid-row-end: 30;
+    text-align: center;
+    
+  }
+
+.description14{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 30;
+    grid-row-end: 31;
+    text-align:left;
+    
+  }
+
+.page14{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 30;
+    grid-row-end: 31;
+    text-align:left;
+  }
+
+  .chapter15{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 31;
+    grid-row-end: 32;
+    text-align: center;
+    
+  }
+
+.description15{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 32;
+    grid-row-end: 33;
+    text-align:left;
+    
+  }
+
+.page15{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 32;
+    grid-row-end: 33;
+    text-align:left;
+  }
+
+  .chapter16{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 34;
+    grid-row-end: 35;
+    text-align: center;
+    
+  }
+
+.description16{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 35;
+    grid-row-end: 36;
+    text-align:left;
+    
+  }
+
+.page16{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 35;
+    grid-row-end: 36;
+    text-align:left;
+  }
+
+  .chapter17{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 36;
+    grid-row-end: 37;
+    text-align: center;
+    
+  }
+
+.description17{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 37;
+    grid-row-end: 38;
+    text-align:left;
+    
+  }
+
+.page17{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 37;
+    grid-row-end: 38;
+    text-align:left;
+  }
+
+  .chapter18{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 38;
+    grid-row-end: 39;
+    text-align: center;
+    
+  }
+
+.description18{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 39;
+    grid-row-end: 40;
+    text-align:left;
+    
+  }
+
+.page18{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 39;
+    grid-row-end: 40;
+    text-align:left;
+  }
+
+  .chapter19{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 40;
+    grid-row-end: 41;
+    text-align: center;
+    
+  }
+
+.description19{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 41;
+    grid-row-end: 42;
+    text-align:left;
+    
+  }
+
+.page19{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 41;
+    grid-row-end: 42;
+    text-align:left;
+  }
