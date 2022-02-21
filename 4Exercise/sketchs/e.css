@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    /* border: 3px solid black; */
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    /* border: 1px solid salmon; */
+    font-weight: bold;
+    
+
+
+  }
+
+h1 {
+    font-weight: bold;
+}
+
+.description { 
+    font-weight: 300;
+    /* line-height: 0px; */
+}
+
+.chapter {
+    text-transform:uppercase;
+}
+
+.page {
+    font-weight: 300;
+    line-height: 0px;
+}
