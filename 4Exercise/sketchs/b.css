@@ -1,6 +1,17 @@
 html {
     font-size: 30px;
+    font-family: 'Roboto Serif', sans-serif;
 }
+
+.title {
+    font-size: 30px;
+    margin-right: 150px;
+    text-transform:uppercase;
+    text-align: right;
+    line-height: 50px;
+
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
