@@ -17,8 +17,8 @@ html {
     grid-template-columns: auto auto auto auto auto;
     gap: 10px;
      /* border: 3px solid #2196F3; */
-     padding: 20px 0;
     line-height: 60px;
+    padding: 60px 200px;
   }
   
 
@@ -26,7 +26,7 @@ html {
 .chapter1{
     grid-column-start: 1;
     grid-column-end: 3;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -54,7 +54,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -81,7 +81,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -108,7 +108,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 7;
     grid-row-end: 8;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -135,7 +135,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 9;
     grid-row-end: 10;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -162,7 +162,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 11;
     grid-row-end: 12;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -189,7 +189,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 13;
     grid-row-end: 14;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -216,7 +216,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 15;
     grid-row-end: 16;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -243,7 +243,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 17;
     grid-row-end: 18;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -270,7 +270,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 19;
     grid-row-end: 20;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -297,7 +297,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 21;
     grid-row-end: 22;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -324,7 +324,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 23;
     grid-row-end: 24;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -351,7 +351,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 25;
     grid-row-end: 26;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -378,7 +378,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 27;
     grid-row-end: 28;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -405,7 +405,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 29;
     grid-row-end: 30;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -432,7 +432,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 31;
     grid-row-end: 32;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -459,7 +459,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 34;
     grid-row-end: 35;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -486,7 +486,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 36;
     grid-row-end: 37;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -513,7 +513,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 38;
     grid-row-end: 39;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -540,7 +540,7 @@ html {
     grid-column-end: 3;
     grid-row-start: 40;
     grid-row-end: 41;
-    text-align: center;
+    text-align: left;
     
   }
 
@@ -559,5 +559,32 @@ html {
     grid-column-end: 5;
     grid-row-start: 41;
     grid-row-end: 42;
+    text-align:left;
+  }
+
+  .chapter20{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 42;
+    grid-row-end: 43;
+    text-align: left;
+    
+  }
+
+.description20{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 43;
+    grid-row-end: 44;
+    text-align:left;
+    
+  }
+
+.page20{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 43;
+    grid-row-end: 44;
     text-align:left;
   }
