@@ -1,21 +1,51 @@
+html{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+
+}
 .grid-container {
     display: grid;
-    gap: 50px;
-    grid-template-columns: 25% auto auto;
-    border: 3px solid #2196F3;
-    padding: 10px;
+    column-gap: 15px;
+    grid-template-columns: 35% 10% auto;
+    /* border: 3px solid #2196F3; */
+    padding: 0px;
   }
   
-  .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+  .grid-container > div {
+   /* border: 1px solid black; */
+    /* padding: 0px 0; */
+    /* font-size: 30px; */
+    
   }
-.title {
 
+.title1 {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 21;
     text-align: center;
+    font-size: 35px;
+    padding-top: 270px;
+}
+.title2{
+    font-size: 20px;
+    
+}
+.page {
+    text-transform:uppercase;
+    text-align: right;
+    font-size: 40px;
+    line-height: 38px;
 }
 
+.grid-item {
+    text-transform:uppercase;
+ 
+    
+}
+
+.description {
+    text-transform: lowercase;
+    font-size: 16px;
+    text-align:center;
+    /* line-height: 40px; */
+}
