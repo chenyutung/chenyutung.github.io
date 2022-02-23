@@ -9,15 +9,17 @@
     }
 
 .grid-container > div {
-    border: 3px solid black;
-    text-align: center;
+    border: 3px solid blue;
+
     /* padding: 20px 0; */
     font-size: 30px;
     }
         
-.item1 {
+.title {
     grid-row-start: 1;
     grid-row-end: 7;
+    text-align: left;
+    /* transform: rotate(-90deg); */
     /* grid-column-start: 2;
     grid-column-end: 4; */
     }
@@ -25,4 +27,14 @@ hr {
     margin: 0px 0px;
     width: 100%;
 
+}
+.title2 {
+      /* transform: rotate(-90deg); */
+      font-size: 30px;
+      padding-top: 0px;
+      margin-top: 0px;
+}
+
+.item2{
+    text-align: left;
 }
