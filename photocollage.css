@@ -10,3 +10,39 @@ html{
     padding: 50px;
     padding-top: 0;
 }
+
+.grid-container {
+display: grid;
+column-gap: 15px;
+grid-template-columns: 50% 50%;
+align-content: flex-start;
+border:3px solid black;
+justify-content: center;
+}
+
+.grid-item{
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 30px;
+
+}
+
+.image1{
+    width: 35%;
+}
+
+.collage {
+    width: 500px;
+    
+}
+
+.image2 {
+    z-index: 0;
+    width:500px ;
+}
+
+.imgage3 {
+    z-index: 1;
+    transform: rotate(12deg);
+    width: 500px;
+}
