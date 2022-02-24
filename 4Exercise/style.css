@@ -32,8 +32,17 @@ a {
     border-bottom: 1 px solid black;
     margin-bottom: 36px;
     line-height: 30px;
+    font-size: 30px;
 }
 
 a:hover {
     border: 1 px solid black;
+}
+
+.title2 {
+    font-size: 25px;
+}
+
+.style {
+    font-size: 30px;
 }
