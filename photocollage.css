@@ -1,29 +1,44 @@
 html{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Serif', sans-serif;
+    background-color: #F7EDDA;
 }
 
 .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 0.75vw;
-    padding: 50px;
+    font-size: 0.6vw;
+    padding: 30px;
     padding-top: 0;
+    font-weight:100;
+    color: #7C5F3F;
 }
 
 .grid-container {
 display: grid;
 column-gap: 15px;
-grid-template-columns: 30% 30% 30%;
+grid-template-columns: 20% 40% 20%;
 align-content: flex-start;
-border:3px solid black;
-justify-content: center;
+/* border:3px solid black; */
+justify-content: space-between;
+padding-bottom: 20px;
 }
 
 .grid-item{
-    border: 1px solid blue;
-    padding: 20px;
-    margin: 30px;
+    /* border: 1px solid blue; */
+    /* margin: 30px; */
+
+}
+
+.words{
+    text-align: left;
+    /* text-align: end; */
+    top: 100px;
+    color: #7C5F3F;
+    justify-content: flex-end;
+    line-height: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
 
 }
 
@@ -32,14 +47,31 @@ justify-content: center;
 }
 
 
+.container {
+    position: relative;
+    text-align: center;
+}
 
 .image2 {
     /* z-index: 0; */
     width:100% ;
-    position:relative; 
+    justify-content: center;
     z-index:1;
     top: 0;
+
 }
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    color: #7C5F3F;
+}
+
+
+
+
 
 .image3 {
     z-index: 2;
@@ -51,17 +83,34 @@ justify-content: center;
 
 .grid-container2 {
     display: grid;
-    column-gap: 2px;
-    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
     /* align-content: flex-start; */
-    border:3px solid black;
-    /* justify-content: center; */
+    /* border:3px solid black; */
+    justify-content: center;
+    background-color: #D4C2AC;
+    padding: 0px;
+    margin: 20px;
     }
 
-    .grid-item2{
+ .grid-item2{
         border: 1px solid blue;
-        padding: 0px;
+        /* padding: 0px;
         margin: 20px;
-        justify-content: center;
-    
+        */
     }
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 1px solid blue;
+    
+}
+.item3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    border: 1px solid blue;
+}
