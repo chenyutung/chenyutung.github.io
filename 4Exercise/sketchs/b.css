@@ -1,6 +1,8 @@
 html {
     font-size: 30px;
     font-family: 'Roboto Serif', sans-serif;
+  background-color: #373E22;
+  color: white;
 }
 
 .title {

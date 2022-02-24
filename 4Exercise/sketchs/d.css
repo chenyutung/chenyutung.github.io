@@ -1,6 +1,7 @@
 html{
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
+    background-color: #CCB799;
 }
 
 
@@ -14,8 +15,8 @@ html{
     }
  
 .grid-item {
-     background-color: rgba(255, 255, 255, 0.8);
-     border-style: solid;
+     /* background-color: rgba(255, 255, 255, 0.8); */
+     border-style: dotted rgba(255, 255, 255, 0.8);
      border-right-style: dotted;
      border-left-style: none;
      border-top-style: none;
