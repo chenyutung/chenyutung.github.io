@@ -14,7 +14,7 @@ html{
 .grid-container {
 display: grid;
 column-gap: 15px;
-grid-template-columns: 50% 50%;
+grid-template-columns: 30% 30% 30%;
 align-content: flex-start;
 border:3px solid black;
 justify-content: center;
@@ -31,18 +31,37 @@ justify-content: center;
     width: 35%;
 }
 
-.collage {
-    width: 500px;
-    
-}
+
 
 .image2 {
-    z-index: 0;
-    width:500px ;
+    /* z-index: 0; */
+    width:100% ;
+    position:relative; 
+    z-index:1;
+    top: 0;
 }
 
-.imgage3 {
-    z-index: 1;
-    transform: rotate(12deg);
-    width: 500px;
+.image3 {
+    z-index: 2;
+    /* transform: rotate(12deg); */
+    width: 300px;
+    position: absolute;
+    top: 60
 }
+
+.grid-container2 {
+    display: grid;
+    column-gap: 2px;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* align-content: flex-start; */
+    border:3px solid black;
+    /* justify-content: center; */
+    }
+
+    .grid-item2{
+        border: 1px solid blue;
+        padding: 0px;
+        margin: 20px;
+        justify-content: center;
+    
+    }
