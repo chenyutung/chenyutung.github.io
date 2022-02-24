@@ -1,0 +1,11 @@
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.75vw;
+    padding: 50px;
+    padding-top: 0;
+}
