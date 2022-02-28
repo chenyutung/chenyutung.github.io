@@ -3,7 +3,6 @@ body {
     background-color: pink;
     font-family: arial;
     color: red;
-    font-size: 100px;
   }
   
   .container {
@@ -11,17 +10,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
   }
+
   
-  .item {
-    text-align: center;
+  #item {
+    width: 500px;
+    align-items: center;
+    /* height:100px;t */
   }
 
 
-.item {
-    animation-duration: 2s;
+#item {
+    animation-duration: 10s;
     animation-name: spinType;
+    
 }
 
 
@@ -31,10 +34,10 @@ body {
     }
     100% { transform: rotate(1 turn)
     }
-    }-
+    }
 
 
-@keyframes spinType {
+@keyframes itemSpin {
         0% {
         }
         60% {
@@ -46,12 +49,14 @@ body {
 
  @keyframes spinType {
         0% {
-          transform: rotate(0.5turn);
+          transform: rotate(0turn);
         }
-        60% {
+        /* 60% {
           transform: rotate(0.7turn);
-        }
+        } */
         100% {
           transform: rotate(1turn);
         }
+
+        
       }
