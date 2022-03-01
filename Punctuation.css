@@ -1,6 +1,7 @@
 html{
     background-color: black;
     color: white;
+    font-family:sans-serif;
 }
 
 
@@ -67,6 +68,23 @@ html{
     font-size: 20px;
     padding-left: 90px;
 }
+.backwords5:hover::before{
+    position: absolute;
+    top: 20px;
+    left: 1200px;
+    color: black;
+    font-size: 15px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    content: 'Usually used after an interjection or exclamation to indicate strong feelings or to show emphasis';
+    width: 140px;
+    font-family:sans-serif;
+    text-transform: lowercase;
+    }
+
+
+
 .backwords6{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -99,13 +117,15 @@ html{
 .backwords8:hover::before{
     position: absolute;
     top: -70px;
-    left: 60px;
+    left: 0px;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
     background: #fff;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 30px;
+    border-radius: 30px;
     content: '問號';
+    width: 30px;
+    font-family:sans-serif;
     }
 
 
@@ -250,6 +270,7 @@ html{
  padding-bottom: 0px;
  line-height: 0px;
 height: 100%;
+z-index: 0;
 }
 
 .box::-webkit-scrollbar{
@@ -309,3 +330,48 @@ height: 100%;
     color: white;
   }
 
+
+  @media only screen and (max-width: 700px) {
+    .wrapper {
+        width:100vw;
+    }
+    
+    .box {
+     font-size:100px;
+     -webkit-text-stroke-width: 2px;
+    }
+    .backwords8 {
+        padding-left:0;
+        margin-left:-200px;
+    }
+  }
+
+  #item{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-left: 60px;
+    margin-top: 30px;
+    width: 300px;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #item {
+    animation-duration: 10s;
+    animation-name: spinType;
+    
+}
+
+@keyframes spinType {
+    0% {
+      transform: rotate(0turn);
+    }
+    /* 60% {
+      transform: rotate(0.7turn);
+    } */
+    100% {
+      transform: rotate(1turn);
+    }
