@@ -1,6 +1,6 @@
-html {
+/* html {
     
-}
+} */
 .menu{
     display: flex;
     flex-direction: row;
@@ -249,6 +249,10 @@ html {
    text-decoration: none;
    height: 500px;
    /* background-color:green; */
+   display: grid;
+   gap: 2px;
+  
+  
    }
    
    .box::-webkit-scrollbar{
@@ -256,13 +260,43 @@ html {
    }
 
 
-.typewriter{
+/* .typewriter{
     color: black;
     font-size: 15px;
     font-family:monospace;
     line-height:2;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 55vw;
+	margin: 0 auto;
+	min-height: 100vh;
+	perspective: 200px;
+} */
+
+.typewriter {
+    color: hsl(0 0% 20%);
+    font-size: 15px;
+    line-height: 3;
+    font-weight: 150px;
+    margin: 0;
+    min-block-size: 100%;
+    min-inline-size: 100%;
+  }
+
+em {
+    text-emphasis: triangle;
+    font-style: normal;
+  }
   
-}
+.emphasis-1{
+    -webkit-text-emphasis: '❓';
+    font-size: 18px;
+
+  }
+
+
+
 
 
 
