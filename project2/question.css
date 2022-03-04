@@ -1,6 +1,6 @@
-/* html {
-    
-} */
+html {
+    font-family:sans-serif;  
+}
 .menu{
     display: flex;
     flex-direction: row;
@@ -248,10 +248,12 @@
    z-index: 0;
    text-decoration: none;
    height: 500px;
-   /* background-color:green; */
+   background-color:white;
+
    display: grid;
    gap: 2px;
-  
+   /* animation: animated-text 4s steps(300,end) 1s 1 normal both,
+               animated-cursor 4ms steps(300,end) infinite; */
   
    }
    
@@ -282,7 +284,8 @@
     margin: 0;
     min-block-size: 100%;
     min-inline-size: 100%;
-  }
+    font-family:monospace;
+}
 
 em {
     text-emphasis: triangle;
@@ -295,8 +298,14 @@ em {
 
   }
 
-
-
+  /* @keyframes animated-text{
+    from{width: 0;}
+    to{width: 600px;}
+  }
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+  } */
 
 
 
@@ -318,6 +327,7 @@ h2 {
     position: relative;
     width: 750px;
     padding-right: 10px;
+    margin-top: 0;
   }
   
   h2 span {
@@ -327,7 +337,7 @@ h2 {
   
   .message {
     background-color: white;
-    color: #333;
+    color: red;
     display: block;
     font-weight: 1100;
     overflow: hidden;
