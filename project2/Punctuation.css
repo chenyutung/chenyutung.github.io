@@ -266,7 +266,7 @@ html{
  color: black;
  white-space: nowrap;
  overflow-x:scroll;
- padding-top: 75px;
+ padding-top: 100px;
  padding-bottom: 0px;
  line-height: 0px;
 height: 100%;
@@ -300,6 +300,13 @@ text-decoration: none;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: white;
     color: white;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 40px #fff;
+    transition: .5s linear;
+    font-size: 210px;
+    
   }
 
 
@@ -313,6 +320,13 @@ text-decoration: none;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: white;
     color: white;
+    color: #fff;
+    font-size: 210px;
+    transition: .5s linear;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 40px #fff;
+                 
   }
 
   .box4{
@@ -325,6 +339,12 @@ text-decoration: none;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: white;
     color: white;
+    font-size: 210px;
+    transition: .5s linear;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 40px #fff;
   }
 
   .box5{
@@ -337,6 +357,14 @@ text-decoration: none;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: white;
     color: white;
+    transition: .5s linear;
+    font-size: 210px;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 40px #fff;
+                
+    
   }
 
 
@@ -382,10 +410,11 @@ text-decoration: none;
     grid-row-end: 4;
     padding-left: 60px;
     margin-top: 30px;
-    width: 300px;
+    width: 200px;
     z-index: 2;
     padding: 0px;
-    margin: 0px;
+    margin: 50px;
+    margin-top: 5.9vh;
   }
 
 #item1 {

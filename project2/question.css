@@ -97,7 +97,7 @@ html {
     padding-left: 90px;
     position:relative;
 }
-.backwords8:hover::before{
+/* .backwords8:hover::before{
     position: absolute;
     top: -70px;
     left: 0px;
@@ -109,7 +109,7 @@ html {
     content: '問號';
     width: 30px;
     font-family:sans-serif;
-    }
+    } */
 
 
 .backwords9{
@@ -282,25 +282,26 @@ h2 {
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    width: 550px;
+    width: 750px;
+    padding-right: 10px;
   }
   
   h2 span {
     font-size: 40px;
-    margin-left: 10px;
+    margin-left: 30px;
   }
   
   .message {
-    background-color: yellow;
+    background-color: white;
     color: #333;
     display: block;
-    font-weight: 900;
+    font-weight: 1100;
     overflow: hidden;
     position: absolute;
     padding-left: 1rem;
     top: 0.2rem;
     left: 300px;
-    animation: openclose 5s ease-in-out infinite;
+    animation: openclose 10s ease-in-out infinite;
   }
   
 
