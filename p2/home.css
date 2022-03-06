@@ -10,15 +10,15 @@ html{
 } */
 
 
-#menu{
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: sans-serif;
     font-size: 0.6vw;
     padding: 30px;
     padding-top: 0;
     font-weight:100;
-    color: white;
 }
 
 .grid-container {
@@ -71,63 +71,6 @@ text-decoration: none;
     color: white;
   }
 
-
-  .box2{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-}
-  .box2:hover {
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: white;
-    color: white;
-    color: #fff;
-    text-shadow: 0 0 5px #fff,
-                 0 0 10px #fff, 
-                 0 0 40px #fff;
-    transition: .5s linear;
-    font-size: 210px;
-    
-  }
-
-
-  .box3{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-}
-  .box3:hover {
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: white;
-    color: white;
-    color: #fff;
-    font-size: 210px;
-    transition: .5s linear;
-    text-shadow: 0 0 5px #fff,
-                 0 0 10px #fff, 
-                 0 0 40px #fff;
-                 
-  }
-
-  .box4{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-}
-  .box4:hover {
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: white;
-    color: white;
-    font-size: 210px;
-    transition: .5s linear;
-    color: #fff;
-    text-shadow: 0 0 5px #fff,
-                 0 0 10px #fff, 
-                 0 0 40px #fff;
-  }
 
   .box5{
     display: inline-block;
