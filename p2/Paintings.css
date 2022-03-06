@@ -1,0 +1,212 @@
+html{
+    background-color: black;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 0.6vw;
+    padding: 30px;
+    padding-top: 0;
+    font-weight:100;
+    color: white;
+}
+
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: #000;
+    /* padding-bottom: 180px; */
+  }
+
+  
+.name {
+    font-weight: 500;
+    text-align: center;
+    font-size: 70px;
+    font-family: monospace;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+
+  .grid-container {
+    display: grid;
+    row-gap: 15px;
+    grid-template-columns: repeat(11, 133px);
+    grid-template-rows: repeat(30, 100px);
+
+    align-content: flex-start;
+    padding-bottom: 20px;
+   justify-content: space-around;
+    }
+    
+    .grid-item1{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 6;
+    }
+
+    .text1{
+        
+        filter: blur(2px);
+    }
+
+    .grid-item2{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        padding-top: 50px;
+     
+    }
+
+    .grid-item3{
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 9;
+        grid-row-end:12;
+        align-items: right;
+        padding-top: 30px;
+    }
+
+
+    .grid-item4{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        filter: blur(2px);
+     
+    }
+
+
+    .grid-item{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+    }
+
+    button{
+        border: none;
+        color: white;
+        background-color: inherit;
+        font-size: 30px;
+        /* padding-left: 200px;
+        padding-top: 70px; */
+        opacity: 0.2;
+    }
+    button:hover{
+        border: none;
+        color: white;
+        background-color: inherit;
+        font-size: 30px;
+        opacity: 2;
+    }
+
+ 
+    .grid-item5{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 14;
+        grid-row-end:18;
+        align-items: right;
+        padding-top: 10px;
+       
+    }
+
+    .text5{
+        
+        filter: blur(2px);
+    }
+
+    .grid-item6{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        grid-row-start: 14;
+        grid-row-end: 20;
+        padding-top: 40px;
+        
+     
+    }
+
+
+    .grid-item7{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 26;
+        grid-row-end:29;
+        align-items: right;
+        padding-top: 10px;
+       
+    }
+
+    .grid-item8{
+        /* border: 1px solid white; */
+        color: white;
+        font-family: monospace;
+        font-size: 20px;
+        grid-column-start: 7;
+        grid-column-end: 11;
+        grid-row-start: 24;
+        grid-row-end: 27;
+        padding-top: 40px;
+        
+     
+    }
+
+    .text6{
+        
+        filter: blur(2px);
+    }

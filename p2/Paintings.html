@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto+Mono:wght@100;300;400;600;700&family=Roboto+Serif:ital,wght@0,100;0,200;0,400;0,600;0,800;0,900;1,200;1,300&display=swap" rel="stylesheet">
+ 
+  
+  <title>Stories as Networks</title>
+
+  <link rel="stylesheet" href="Paintings.css">
+  <script src="home.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <h1 class="title1">Punctuation</h1>
+        <h1 class="title2">Stories as Networks</h1>
+        <h1 class="title3">Spring 2022</h1>
+    </div>
+      
+
+    <div class="title">
+        <div class="name">
+            PAINTINGS: A REFLECTIO
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item1"><span class="text1">We have all had the experience, on a visit to one of the great temples of Kyoto or Nara, of being shown a scroll, one of the temple's treasures, hanging in a large, deeply recessed alcove. So dark are these alcoves, even in bright daylight, that we can hardly discern the outlines of the work; all we can do is listen to the explanation of the guide, follow as best we can the all-but invisible brush strokes, and tell ourselves how magnificent a painting it must be. Yet the combination of that blurred old painting and the dark alcove is one of absolute harmony. The lack of clarity, far from disturbing us, seems rather to suit the painting perfectly.</span>
+    </div>
+
+    <div class="grid-item3">
+        <button onclick="textEffect()">🔎</button>
+
+        <p id="effect"></p>
+        <script>
+         var index = 0;
+        var text = 'For the painting here is nothing more than another delicate surface upon which the faint, frail light can play; it performs precisely the same function as the sand-textured wall. This is why we attach such importance to age and patina. A new painting, even one done in ink monochrome or subtle pastels, can quite destroy the shadows of an alcove, unless it is selected with the greatest care.';
+      var speed = 50;
+  
+       function textEffect() {
+       if (index < text.length) {
+        document.getElementById("effect")
+                .innerHTML += text.charAt(index);
+        index++;
+        setTimeout(textEffect, speed);
+    }
+}
+     </script>
+    
+            
+    </div>
+    
+    <div class="grid-item5"><span class="text5">A Japanese room might be likened to an inkwash painting, the paper-paneled shoji being the expanse where the ink is thinnest, and the alcove where it is darkest. Whenever I see the alcove of a tastefully built Japanese room, I marvel at our comprehension of the secrets of shadows, our sensitive use of shadow and light. For the beauty of the alcove is not the work of some clever device. An empty space is marked off with plain wood and plain walls, so that the light drawn into it forms dim shadows within emptiness. There is nothing more. And yet, when we gaze into the darkness that gathers behind the crossbeam, around the flower vase, beneath the shelves, though we know perfectly well it is mere shadow, we are overcome with the feeling that in this small corner of the atmosphere there reigns complete and utter silence; that here in the darkness immutable tranquility holds sway. The "mysterious Orient" of which Westerners speak probably refers to the uncanny silence of these dark places. And even we as children would feel an inexpressible chill as we peered into the depths of an alcove to which the sunlight had never penetrated. Where lies the key to this mystery? illtimately it is the magic of shadows. Were the shadows to be banished from its comers, the alcove would in that instant revert to mere void.
+    </span>
+    </div>
+
+
+    
+    <div class="grid-item7">
+        <button onclick="typing()">🔎</button>
+        
+        <p id="abc"></p>
+        <script>
+         var main = 0;
+        var table = 'This was the genius of our ancestors, that by cutting off the light from this empty space they imparted to the world of shadows that formed there a quality of mystery and depth superior to that of any wall painting or ornament. The technique seems simple, but was by no means so simply achieved. We can imagine with little difficulty what extraordinary pains were taken with each invisible detail-the placement of the window in the shelving recess, the depth of the crossbeam, the height of the threshold. But for me the most exquisite touch is-the pale white glow of the shoji in the study bay; I need only pause before it and I forget the passage of time';
+        var speed = 50;
+  
+  function typing() {
+  if (main < table.length) {
+   document.getElementById("abc")
+           .innerHTML += table.charAt(main);
+   main++;
+   setTimeout(typing, speed);
+}
+}
+</script>
+    </div>
+       
+       
+       
+<div class="grid-item2">
+<button onclick="typeWriter()">🔍</button>
+
+<p id="demo"></p>
+<script>
+    var i = 0;
+    var txt = 'We have all had the experience, on a visit to one of the great temples of Kyoto or Nara, of being shown a scroll, one of the temples treasures, hanging in a large, deeply recessed alcove. So dark are these alcoves, even in bright daylight, that we can hardly discern the outlines of the work; all we can do is listen to the explanation of the guide, follow as best we can the all-but invisible brush strokes, and tell ourselves how magnificent a painting it must be. Yet the combination of that blurred old painting and the dark alcove is one of absolute harmony. The lack of clarity, far from disturbing us, seems rather to suit the painting perfectly.';
+    var speed = 50;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+</script>
+</div>
+
+<div class="grid-item4">
+    <span class="text2">
+    For the painting here is nothing more than another delicate surface upon which the faint, frail light can play; it performs precisely the same function as the sand-textured wall. This is why we attach such importance to age and patina. A new painting, even one done in ink monochrome or subtle pastels, can quite destroy the shadows of an alcove, unless it is selected with the greatest care.
+    </span>
+</div>
+
+<div class="grid-item6">
+<button onclick="typeEffect()">🔎</button>
+
+<p id="word"></p>
+<script>
+ var home = 0;
+var tt = 'A Japanese room might be likened to an inkwash painting, the paper-paneled shoji being the expanse where the ink is thinnest, and the alcove where it is darkest. Whenever I see the alcove of a tastefully built Japanese room, I marvel at our comprehension of the secrets of shadows, our sensitive use of shadow and light. For the beauty of the alcove is not the work of some clever device. An empty space is marked off with plain wood and plain walls, so that the light drawn into it forms dim shadows within emptiness. There is nothing more. And yet, when we gaze into the darkness that gathers behind the crossbeam, around the flower vase, beneath the shelves, though we know perfectly well it is mere shadow, we are overcome with the feeling that in this small corner of the atmosphere there reigns complete and utter silence; that here in the darkness immutable tranquility holds sway. The "mysterious Orient" of which Westerners speak probably refers to the uncanny silence of these dark places. And even we as children would feel an inexpressible chill as we peered into the depths of an alcove to which the sunlight had never penetrated. Where lies the key to this mystery? illtimately it is the magic of shadows. Were the shadows to be banished from its comers, the alcove would in that instant revert to mere void.';
+var speed = 50;
+
+function typeEffect() {
+if (home < tt.length) {
+document.getElementById("word")
+        .innerHTML += tt.charAt(home);
+home++;
+setTimeout(typeEffect, speed);
+}
+}
+</script>
+
+</div>
+<div class="grid-item8"><div class="text6"> This was the genius of our ancestors, that by cutting off the light from this empty space they imparted to the world of shadows that formed there a quality of mystery and depth superior to that of any wall painting or ornament. The technique seems simple, but was by no means so simply achieved. We can imagine with little difficulty what extraordinary pains were taken with each invisible detail-the placement of the window in the shelving recess, the depth of the crossbeam, the height of the threshold. But for me the most exquisite touch is-the pale white glow of the shoji in the study bay; I need only pause before it and I forget the passage of time.
+    </div>
+</div>
+
+
+</body>
+</html>
