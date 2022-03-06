@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto+Mono:wght@100;300;400;600;700&family=Roboto+Serif:ital,wght@0,100;0,200;0,400;0,600;0,800;0,900;1,200;1,300&display=swap" rel="stylesheet">
+ 
+  
+  <title>periods</title>
+
+  <link rel="stylesheet" href="Apostrophe.css">
+  <script src="Apostrophe.js"></script>
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="menu">
+        <h1 class="title1">Punctuation</h1>
+        <h1 class="title2">Stories as Networks</h1>
+        <h1 class="title3">Spring 2022</h1>
+    </div>
+    <div class="articletitle">So there are the uninteresting things in punctuation uninteresting in a way that is perfectly obvious, and so we do not have to go any farther into that. There are besides dashes and dots, and these might be interesting spaces might be interesting. They might if one felt that way about them.</div>
+
+
+    <div class="grid-container">
+      <div class="backwords1">'</div> 
+      <div class="backwords2">'</div> 
+      <div class="backwords3">'</div> 
+      <div class="backwords4">'</div> 
+      <div class="backwords5">'</div> 
+      <div class="backwords6">'</div> 
+      <div class="backwords7">'</div> 
+      <div class="backwords8">'</div> 
+      <div class="backwords9">'</div> 
+      <div class="backwords10">'</div> 
+      <div class="backwords11">'</div> 
+      <div class="backwords12">'</div> 
+      <div class="backwords13">'</div> 
+      <div class="backwords14">'</div> 
+      <div class="backwords15">'</div> 
+      <div class="backwords16">'</div> 
+      <div class="backwords17">'</div> 
+      <div class="backwords18">'</div> 
+      <div class="backwords19">'</div> 
+      <div class="backwords20">'</div> 
+    </div>
+
+<h1>Typewriter</h1>
+
+<button onclick="typeWriter()">Click me</button>
+
+<p id="demo" style="color: white;"></p>
+<script>
+    var i = 0;
+    var txt = 'Lorem ipsum dummy text blabla.';
+    var speed = 50;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+</script>
+    
+  </div>
+</body>
+</html>
