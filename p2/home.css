@@ -1,11 +1,16 @@
-html{
+/* html{
     background-color: black;
     color: white;
     font-family:sans-serif;
-}
+} */
+/* 
+html{
+    background-color: white;
+    color: black;
+} */
 
 
-.menu{
+#menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,6 +18,7 @@ html{
     padding: 30px;
     padding-top: 0;
     font-weight:100;
+    color: white;
 }
 
 .grid-container {
@@ -22,236 +28,6 @@ html{
     height: 80vh;
 }
 
-.backwords1{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    -moz-transform:scaleY(-1);
-    -webkit-transform:scaleY(-1);
-    -o-transform:scaleY(-1);
-    transform:scaleY(-1);
-    font-size: 20px;
-    padding-left: 90px;
-}
-
-.backwords2{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 7;
-    font-size: 20px;
-    padding-left: 90px;
-}
-
-.backwords3{
-    grid-column-start: 8;
-    grid-column-end: 9;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    font-size: 20px;
-    padding-left: 90px;
-}
-.backwords4{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    font-size: 20px;
-    padding-left: 90px;
-}
-.backwords5{
-    grid-column-start: 9;
-    grid-column-end: 10;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    font-size: 20px;
-    padding-left: 90px;
-}
-.backwords5:hover::before{
-    position: absolute;
-    top: 20px;
-    left: 1200px;
-    color: black;
-    font-size: 15px;
-    background: #fff;
-    padding: 30px;
-    border-radius: 30px;
-    content: 'Usually used after an interjection or exclamation to indicate strong feelings or to show emphasis';
-    width: 140px;
-    font-family:sans-serif;
-    text-transform: lowercase;
-    }
-
-
-
-.backwords6{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    font-size: 20px;
-    padding-left: 90px;
-}
-.backwords7{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 7;
-    font-size: 20px;
-    padding-left: 20px;
-    -moz-transform:scaleY(-1);
-    -webkit-transform:scaleY(-1);
-    -o-transform:scaleY(-1);
-    transform:scaleY(-1);
-}
-.backwords8{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    font-size: 20px;
-    padding-left: 90px;
-    position:relative;
-}
-.backwords8:hover::before{
-    position: absolute;
-    top: -70px;
-    left: 0px;
-    color: black;
-    font-size: 15px;
-    background: #fff;
-    padding: 30px;
-    border-radius: 30px;
-    content: '問號';
-    width: 30px;
-    font-family:sans-serif;
-    }
-
-
-.backwords9{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    font-size: 20px;
-    padding-left: 90px;
-    -moz-transform:scaleY(-1);
-    -webkit-transform:scaleY(-1);
-    -o-transform:scaleY(-1);
-    transform:scaleY(-1);
-}
-.backwords10{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    font-size: 20px;
-    padding-left: 90px;
-}
-.backwords11{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    font-size: 40px;
-    padding-left: 90px;
-}
-.backwords12{
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 6;
-    grid-row-end: 7;
-    font-size: 20px;
-    padding-left: 90px;
-}
-.backwords13{
-    grid-column-start: 8;
-    grid-column-end: 9;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    font-size: 20px;
-    padding-left: 90px;
-    -moz-transform:scaleY(-1);
-    -webkit-transform:scaleY(-1);
-    -o-transform:scaleY(-1);
-    transform:scaleY(-1);
-}
-.backwords14{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    font-size: 30px;
-    padding-left: 60px;
-    margin-top: 30px;
-}
-
-.backwords15{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 7;
-    grid-row-end: 8;
-    font-size: 30px;
-    padding-left: 60px;
-    margin-top: 30px;
-}
-
-.backwords16{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    font-size: 30px;
-    padding-left: 60px;
-    margin-top: 30px;
-}
-.backwords17{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 7;
-    grid-row-end: 8;
-    font-size: 30px;
-    padding-left: 60px;
-    margin-top: 30px;
-    -moz-transform:scaleY(-1);
-    -webkit-transform:scaleY(-1);
-    -o-transform:scaleY(-1);
-    transform:scaleY(-1);
-}
-
-.backwords18{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    font-size: 30px;
-    padding-left: 60px;
-    margin-top: 30px;
-}
-.backwords19{
-    grid-column-start: 9;
-    grid-column-end: 10;
-    grid-row-start: 7;
-    grid-row-end: 8;
-    font-size: 30px;
-    padding-left: 60px;
-    margin-top: 30px;
-    -moz-transform:scaleY(-1);
-    -webkit-transform:scaleY(-1);
-    -o-transform:scaleY(-1);
-    transform:scaleY(-1);
-}
-
-.backwords20{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 7;
-    grid-row-end: 8;
-    font-size: 30px;
-    padding-left: 60px;
-    margin-top: 30px;
-}
 
 
 .box {
@@ -278,11 +54,17 @@ text-decoration: none;
     display: none;
 }
 
-.box1{
+#box1{
     display: inline-block;
+    text-decoration: none;
+    font-size: 125px;
+    color: black;
+    background-color: inherit;
+    border: none;
+    text-transform: uppercase;
 }
 
-.box1:hover {
+#box1:hover {
     text-transform: uppercase;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: white;

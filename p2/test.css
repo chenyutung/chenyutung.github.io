@@ -1,0 +1,193 @@
+/* reset file */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  /*color: #373737;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a:hover, a:focus, a:active, a:visited {
+  text-decoration: none;
+  outline: none;
+}
+button:hover, button:focus, button:active, button:visited, 
+.btn:focus, .btn:active:focus {
+  outline: none;
+}
+
+/* commomn style */
+
+
+::selection {
+  background: #882537;
+  color: #fff;
+}
+
+.action-switch:before, .action-txt:before {
+  transition: .3s ease-in-out;
+}
+
+
+body {
+  height: 100vh;
+  /*background: tomato; */
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+}
+.content-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.author {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-family: Pasajero;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-weight: 700;
+}
+.author span {
+  font-family: Pasajero;
+  font-size: 20px;
+  color: rgba(255, 255, 255, .4);
+  letter-spacing: 2px;
+}
+.wishe-txt {
+  font-size: 35px;
+  font-family: monospace;
+  position: absolute;
+  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+.wishe-txt span {
+  font-size: 35px;
+  font-family: monospace;
+}
+.action-bx {
+  position: absolute;
+  bottom: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+.action-txt li {
+  font-size: 20px;
+  font-family: Pasajero;
+  letter-spacing: 2px;
+  margin: 0 15px;
+}
+.action-switch {
+  position: relative;
+  width: 100px;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  margin: 0 auto 40px auto;
+  cursor: pointer;
+}
+.action-switch:before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  margin-top: -15px;
+}
+.action-txt {
+  position: relative;
+}
+.action-txt:before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  bottom: -10px;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+}
+
+/* load animation */
+* {
+  opacity: 0;
+  visibility: hidden;
+  animation: fadeIn 2s cubic-bezier(0, 1.21, 0.99, 0.93) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* switched css */
+body.day {
+  background: #fff;
+  color: #000;
+}
+.day .action-txt:before {
+  background: #000;
+  left: 115px;
+}
+.day .action-switch:before {
+  background: #000;
+  left: 85px;
+}
+.day .author span {
+  color: rgba(0, 0, 0, 0.4);
+}
+.day .action-switch {
+  border-color: #000;
+}

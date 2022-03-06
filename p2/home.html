@@ -15,42 +15,68 @@
   <link rel="stylesheet" href="home.css">
   <script src="home.js"></script>
 
+
 </head>
 
 <body>
 
 
     <div class="wrapper">
-        <div class="menu">
+        <div id="menu">
             <h1 class="title1">In Praise of Shadows</h1>
             <h1 class="title2">Stories as Networks</h1>
             <h1 class="title3">Spring 2022</h1>
         </div>
+      
+      
     <div class="grid-container">
-        <!-- <div class="backwords1">?</div> 
-        <div class="backwords2">?</div> 
-        <div class="backwords3">!</div> 
-        <div class="backwords4">,</div> 
-        <div class="backwords5">!</div> 
-        <div class="backwords6">?</div> 
-        <div class="backwords7">.</div> 
-        <div class="backwords8">?</div> 
-        <div class="backwords9">!</div> 
-        <div class="backwords10">?</div> 
-        <div class="backwords11">,</div> 
-        <div class="backwords12">!</div> 
-        <div class="backwords13">?</div> 
-        <div class="backwords14">.</div> 
-        <div class="backwords15">!</div> 
-        <div class="backwords16">?</div> 
-        <div class="backwords17">,</div> 
-        <div class="backwords18">!</div> 
-        <div class="backwords19">?</div> 
-        <div class="backwords20">.</div>  -->
+
+
 
 
         <div class="box">
-            <div class="box1">In Praise of Shadows</div>
+            <!-- <button id="box1">In Praise of Shadows</button> -->
+            <button id="box1" onclick = "gfg_Run();">In Praise of Shadows</button>
+
+
+            <script> 
+    
+                var el_up = document.getElementById("GFG_UP"); 
+    
+                var el_down = document.getElementById("GFG_DOWN"); 
+    
+                var str = "Click on button to change the background color"; 
+    
+              
+    
+                el_up.innerHTML = str; 
+    
+              
+    
+                function changeColor(color) { 
+    
+                    document.body.style.background = color; 
+    
+                } 
+    
+                  
+    
+                function gfg_Run() { 
+    
+                    changeColor('black'); 
+    
+                    el_down.innerHTML = "Background Color changed"; 
+                    
+                    
+                    const div = document.getElementById("container");
+
+                    div.style.color = "white";
+
+                    
+    
+                }          
+    
+            </script> 
             <a class="box2" href="Shadows.html">Shadows</a>
             <a class="box3" href="Paintings.html">Paintings</a>
             <a class="box3" href="Sunlight.html"> Sunlight</a>
