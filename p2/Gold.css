@@ -124,24 +124,4 @@ h2 {
       0 0 5px #fff;
      
   }
-  h3 {  
-    background: linear-gradient(to right, #303030 0, #b4b4b4 0, #ffffff 5%, #303030 5%);
-    background-size: 200% 100%;
-    background-position: 10% 0;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-backface-visibility: hidden;
-    transition: 2s ease-in-out;
-    margin-top: 0px;
-    margin-bottom: 30px;
-   
-  }
   
-  h3:hover {
-      background-position: -100% 0;
-      text-shadow: 0 0 5px #fff,
-      0 0 0px #fff, 
-      0 0 5px #fff;
-     
-  }
