@@ -12,9 +12,13 @@ html{
     padding-top: 0;
     font-weight:100;
     color: white;
+    text-decoration: none;
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .name {
   padding: 0;
   margin: 0; 
@@ -47,14 +51,7 @@ input[type="checkbox"] {
   z-index: 100;
 }
 
-input[type="checkbox"] {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 80px;
-    width: 80px;
-    z-index: 100;
-  }
+
 
 .words {
   position: relative;
@@ -110,7 +107,8 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-backface-visibility: hidden;
-      transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+   
   }
   
   h2:hover {

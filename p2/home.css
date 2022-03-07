@@ -1,13 +1,6 @@
-/* html{
-    background-color: black;
-    color: white;
-    font-family:sans-serif;
-} */
-/* 
 html{
-    background-color: white;
-    color: black;
-} */
+  cursor: none;
+}
 
 
 .menu{
@@ -49,6 +42,7 @@ html{
 height: 100%;
 z-index: 0;
 text-decoration: none;
+cursor: none;
 }
 
 .box::-webkit-scrollbar{
@@ -70,6 +64,8 @@ text-decoration: none;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: white;
     color: white;
+    cursor: none;
+
   }
 
 
@@ -81,6 +77,7 @@ text-decoration: none;
     -webkit-text-stroke-color: white;
 }
   .box5:hover {
+    cursor: none;
     text-transform: uppercase;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: white;
@@ -116,8 +113,8 @@ text-decoration: none;
   #item{
     grid-column-start: 9;
     grid-column-end: 10;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
     padding-left: 60px;
     margin-top: 30px;
     width: 300px;
@@ -136,8 +133,8 @@ text-decoration: none;
 #item1 {
     grid-column-start: 9;
     grid-column-end: 10;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
     padding-left: 60px;
     margin-top: 30px;
     width: 200px;

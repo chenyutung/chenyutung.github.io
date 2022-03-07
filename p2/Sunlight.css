@@ -42,7 +42,10 @@ html{
     font-weight:100;
     color: white;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
   
   .sign {
     position: absolute;

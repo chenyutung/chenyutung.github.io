@@ -13,7 +13,10 @@ html{
     color: white;
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
   .title {
     display: flex;
     justify-content: center;
