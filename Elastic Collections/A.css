@@ -65,6 +65,10 @@ body{
     grid-column-end: 3;
     /* border:1px solid red; */
     text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    line-height: 70px;
+       
 }
 
 .grid-item2 {
@@ -75,3 +79,32 @@ body{
     /* border:1px solid red; */
     text-decoration: none;
 }
+
+.A1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.A1 img{
+    display: none;
+}
+
+.A1:hover img{
+    display: block;
+    width: 200px;
+ 
+}
+
+
+.A2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hiddenimg {
+    display: none;
+  }
+  
+  .hiddentxt:hover ~ .hiddenimg {
+    display: block;
+  }
