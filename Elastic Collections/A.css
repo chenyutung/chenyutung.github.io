@@ -109,3 +109,8 @@ body{
     display: block;
     content:'Usually'
   }
+
+.text1{
+    font-size: 30px;
+    font-weight: 400;
+}
