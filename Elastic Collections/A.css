@@ -1,5 +1,5 @@
 html{
-    background-color: #F5F4A1;
+    background-color: #FCEFBA;
     color: black;
     font-family: 'Bubblegum Sans', cursive;
 }
@@ -107,4 +107,5 @@ body{
   
   .hiddentxt:hover ~ .hiddenimg {
     display: block;
+    content:'Usually'
   }
