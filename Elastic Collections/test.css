@@ -26,7 +26,6 @@ body {
     // initial state for the close button transition
     transition: opacity 0.4s ease 0.1s, color 0.2s, transform 0.2s;
     opacity: 0;
-    
     border: none;
     background: none;
     position: fixed;
