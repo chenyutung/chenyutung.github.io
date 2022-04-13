@@ -2,7 +2,7 @@
 let angle = 0;
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(1200, 700);
   // background(102);
   noStroke();
   fill(0);
