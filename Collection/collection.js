@@ -11,14 +11,14 @@ getPeople().then(data => { makeList(data.records) });
 function makeList(records) { 
   for(let i = 0; i < records.length; i++) { 
     let name = records[i].fields.name; 
-    let listItem = document.createElement('li'); 
+    let listItem = document.createElement('div'); 
     listItem.appendChild(document.createTextNode(name)); 
     div.appendChild(listItem); 
   } 
 
   for(let i = 0; i < records.length; i++) { 
     let age = records[i].fields.age; 
-    let listItem = document.createElement('ul'); 
+    let listItem = document.createElement('div'); 
     listItem.appendChild(document.createTextNode(age)); 
     div.appendChild(listItem);   
   } 
