@@ -11,12 +11,41 @@ html {
 .menu{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  font-size: 12px;
-  padding: 30px;
+  justify-content: flex-end;
+  font-size: 20px;
   padding-top: 0;
   font-weight:100;
   color: #7C5F3F;
+  text-transform: uppercase;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+
+}
+
+.title{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  border: 1.5px solid black;
+  padding: 10px;
+  margin-top: 30px;
+  }
+
+.grid-container > div {
+border: 1.5px solid black;
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
 }
 
   
@@ -37,7 +66,6 @@ html {
   /* (A) FIXED WRAPPER */
 .hwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background: #eee;
 }
  
 /* (B) MOVING TICKER WRAPPER */
@@ -50,6 +78,7 @@ html {
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
+ 
 }
  
 /* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
