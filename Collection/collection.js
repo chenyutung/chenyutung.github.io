@@ -2,9 +2,10 @@ const div = document.querySelector('div');
 const ul = document.querySelector('ul');
 const li = document.querySelector('li');
 let container = document.querySelector(".container");
+let information = document.querySelector(".information");
 
 async function getPeople(){ 
-  let response = await fetch('https://api.airtable.com/v0/apprQovZ8QrIy14da/Form%20Responses%201?api_key=key8XafwyxvEVD9sn'); 
+  let response = await fetch('https://api.airtable.com/v0/apprQovZ8QrIy14da/music?api_key=key8XafwyxvEVD9sn'); 
   let data = response.json(); return data; 
 }
 
@@ -15,6 +16,9 @@ function makeList(records) {
     let song = records[i].fields.song; 
     let listItem = document.createElement('div'); 
     let songimg = records[i].fields.songimg;
+    let imageContainer = document.createElement("img");
+    imageContainer.src = songimg.url;
+    console.log(imageContainer);
 
     listItem.classList.add("pname");
 
@@ -28,6 +32,7 @@ function makeList(records) {
     let genreItem = document.createElement('div'); 
     genreItem.classList.add("genre");
     genreItem.innerHTML = genre;
+    
 
     let name = records[i].fields.name; 
     let nameItem = document.createElement('div'); 
@@ -37,18 +42,22 @@ function makeList(records) {
   
     
 
-    
-    listItem.appendChild(document.createTextNode(songimg+song));
-    listItem.appendChild( moodnumberItem); 
-    listItem.appendChild(genreItem);
+    listItem.appendChild(document.createTextNode(songimg));
+    listItem.appendChild(document.createTextNode(song));
+    listItem.appendChild(moodnumberItem); 
+    moodnumberItem.appendChild(genreItem);
     listItem.appendChild(nameItem);
+  
     
 
     container.appendChild(listItem); 
 
-   
 
-    
+
+ 
+
+
+
   }
   
 }
