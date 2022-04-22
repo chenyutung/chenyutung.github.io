@@ -4,6 +4,7 @@ html {
   
   body {
  margin: 0px;
+
   }
 
 .hitem {
@@ -35,9 +36,11 @@ html {
 .menu{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* justify-content: flex-end; */
   font-size: 20px;
-  padding-top: 0;
+  padding: 10px;
   font-weight:100;
   color: #7C5F3F;
   text-transform: uppercase;
@@ -52,6 +55,7 @@ html {
   padding-top: 7px;
   padding-bottom: 7px;
   border: 1px solid black;
+  border-radius: 25px;
   text-decoration: none;
   color: black;
   font-size: 23px;
@@ -67,34 +71,39 @@ padding-top: 30px;
 text-transform: uppercase;
 display: flex;
 flex-wrap: wrap;
+border: 2px solid black;
+justify-content: center;
+align-content: center;
+font-size: 18px;
 }
 
 .moodnumber{
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
-  margin: 10px;
-  padding: 20px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  /* margin: 5px; */
+  padding-top: 23px;
   width: 250px;
+  font-size: 15px;
+  border-top: 2px solid black;
 
 }
 
 .genre{
   justify-content: center;
   align-content: center;
-  font-size: 10px;
-  color: pink;
-  margin: 10px;
-  padding: 20px;
+  font-size: 15px;
   width: 250px;
+  /* border-left: 2px solid black; */
 }
 
 .name{
   font-size: 15px;
-  color: #7C5F3F;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding-top: 25px;
   width: 250px;
+  border-top: 2px solid black;
 }
 
 
@@ -106,25 +115,28 @@ flex-wrap: wrap;
   grid-template-rows: repeat(5, 1fr);
   gap: 40px;
   margin-top: 30px;
+  margin-bottom: 30px;
   justify-content: center;
   align-content: center;
 
   }
 
 .container div {
-border: 2px solid black;
+/* border: 2px solid black; */
 text-align: center;
 justify-items: center;
-
-
-
 }
 
+
+
+.songimg{
+  width: 200px;
+  height: 200px;
+  padding-bottom: 15px;
+
+}  
   
-  
-  p {
-    line-height: 1.5;
-  }
+
 
 
  

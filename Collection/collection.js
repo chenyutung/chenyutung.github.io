@@ -15,12 +15,19 @@ function makeList(records) {
   for(let i = 0; i < records.length; i++) { 
     let song = records[i].fields.song; 
     let listItem = document.createElement('div'); 
+    listItem.classList.add("pname");
+
+   
+
+
+
     let songimg = records[i].fields.songimg;
     let imageContainer = document.createElement("img");
-    imageContainer.src = songimg.url;
-    console.log(imageContainer);
+    imageContainer.src = songimg[0].url;
+    console.log(songimg[0].url);
+    imageContainer.classList.add("songimg");
 
-    listItem.classList.add("pname");
+
 
 
     let moodnumber = records[i].fields.moodnumber; 
@@ -42,7 +49,7 @@ function makeList(records) {
   
     
 
-    listItem.appendChild(document.createTextNode(songimg));
+    listItem.appendChild(imageContainer);
     listItem.appendChild(document.createTextNode(song));
     listItem.appendChild(moodnumberItem); 
     moodnumberItem.appendChild(genreItem);
