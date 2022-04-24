@@ -2,7 +2,7 @@ const div = document.querySelector('div');
 const ul = document.querySelector('ul');
 const li = document.querySelector('li');
 let container = document.querySelector(".container");
-let information = document.querySelector(".information");
+
 
 async function getPeople(){ 
   let response = await fetch('https://api.airtable.com/v0/apprQovZ8QrIy14da/music?api_key=key8XafwyxvEVD9sn'); 
@@ -17,7 +17,6 @@ function makeList(records) {
     let listItem = document.createElement('div'); 
     listItem.classList.add("pname");
 
-   
 
 
 
@@ -61,10 +60,28 @@ function makeList(records) {
 
 
 
+  //filter buttons
+  // let names = ["A", "C", "E", "G", "H", "G", "H", "I", "J", "K","L", "N", "O", "P", "R", "S", "S", "T", "U", "W", "Z", "RnB", "Soul", "Alternative", "Indie","Pop", "Rock", "P", "R", "S", "S", "T", "Electronic", "Hiphop", "Kpop", "Jazzswing", "Classical", "Musical",];
+
+   
+  // base('music').select({
+  //   // Options go in here
+  //   }).eachPage(gotPageOfMusic, gotAllMusic);
+  
+  // music.forEach((music)=> {
+  
+  //   var filterA= music.field.tags;
+  //   filterA.forEach(Function(tags) {
+  //    container.classList.add.tags
+  //   })
+    
+  // })
  
   }
   
 }
+
+
 
 var coll = document.getElementsByClassName("collapsible");
 var i;

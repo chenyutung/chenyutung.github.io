@@ -19,16 +19,16 @@ base("music").select({}).eachPage(gotPageOfMusic, gotAllMusic);
 let music = [];
 
 // callback function that receives our data
-function gotPageOfTiktoks(records, fetchNextPage) {
+function gotPageOfMusic(records, fetchNextPage) {
   console.log("gotPageOfMusic()");
   // add the records from this page to our books array
-  tiktoks.push(...records);
+  Music.push(...records);
   // request more pages
   fetchNextPage();
 }
 
 // call back function that is called when all pages are loaded
-function gotAllTiktoks(err) {
+function gotAllMusic(err) {
   console.log("gotPageOfMusic()");
 
   // report an error, you'd want to do something better than this in production
@@ -54,16 +54,16 @@ function consoleLogMusic() {
 // loop through the books, create an h2 for each one, and add it to the page
 function showMusic() {
   console.log("showMusic()");
-  tiktoks.forEach((music) => {
+  music.forEach((music) => {
 
-    let songname = document.createElement("div");
-    songname.classList.add("item");
-    songname.innerText = music.fields.name;
-     wrapper.appendChild(songname);
+    let pname = document.createElement("div");
+    pname.classList.add("music");
+    pname.innerText = music.fields.name;
+     wrapper.appendChild(pname);
 
      let songimg = document.createElement("img");
      songimg.src = music.fields.songimg[0].url;
-     songimg.classList.add("tiktokVideo");
+     songimg.classList.add("songimg");
      wrapper.appendChild(songimg);
   });
 }

@@ -22,7 +22,7 @@ html {
 .wrapper{
   border-top: 2.2px solid black;
   border-bottom: 2px solid black;
-  gap: 50px;
+
   
 }
 
@@ -46,6 +46,7 @@ html {
   text-transform: uppercase;
   font-weight: 400;
   margin-left: 0px;
+  align-content: center;
 
 }
 
@@ -59,11 +60,25 @@ html {
   text-decoration: none;
   color: black;
   font-size: 23px;
+
 }
 .title{
-  Gap: 40px
+  Gap: 40px;
+  line-height: 2.5;
+  padding-left: 10px;
 }
 
+
+.collapsible{
+ background-color: white;
+ color: black;
+ border: none;
+
+}
+.collapsible:hover{
+  background-color: black;
+  color: white;
+ }
 
 
 .song{
