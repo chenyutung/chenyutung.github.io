@@ -66,8 +66,21 @@ html {
   Gap: 40px;
   line-height: 2.5;
   padding-left: 10px;
+  
 }
-
+.title span{
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid black;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  align-content: center;
+  justify-content: center;
+}
 
 .collapsible{
  background-color: white;

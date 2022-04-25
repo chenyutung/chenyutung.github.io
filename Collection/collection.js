@@ -63,23 +63,36 @@ function makeList(records) {
   //filter buttons
   // let names = ["A", "C", "E", "G", "H", "G", "H", "I", "J", "K","L", "N", "O", "P", "R", "S", "S", "T", "U", "W", "Z", "RnB", "Soul", "Alternative", "Indie","Pop", "Rock", "P", "R", "S", "S", "T", "Electronic", "Hiphop", "Kpop", "Jazzswing", "Classical", "Musical",];
 
-   
-  // base('music').select({
-  //   // Options go in here
-  //   }).eachPage(gotPageOfMusic, gotAllMusic);
-  
-  // music.forEach((music)=> {
-  
-  //   var filterA= music.field.tags;
-  //   filterA.forEach(Function(tags) {
-  //    container.classList.add.tags
-  //   })
-    
-  // })
  
+  
+
+  container.addEventListener("click", function(){
+    container.appendChild(listItem).classList.toggle("active");
+    
+  })
+
+    var filter = records[i].fields.tags;
+    filter.forEach(function(tags){
+    })
+    
+    var A = records[i].querySelector (".A");
+    A.addEventListener("click", function(){
+      if (container.appendChild(lisItem).contains("A")){
+        container.style.background = "pink";
+        container.style.display = "block";
+        A.classList.add("active");
+      } else {
+        container.style.background = "white";
+        container.style.display = "none";
+      }
+    })
+
+
+
+
+    }
   }
   
-}
 
 
 
