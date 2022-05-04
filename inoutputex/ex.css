@@ -33,6 +33,7 @@ body {
   
   .example:hover {
     background-color: pink;
+    color: white;
     cursor: pointer;
     letter-spacing: 1px;
   }
