@@ -10,92 +10,104 @@ function myFunction() {
   }
 
  
+let colorr;
+
+
  function colors() {
-    var colorr = document.getElementById("color1").value;
-    if(colorr==''){
-     document.getElementById("changecolor").style.color = "black";
+   colorr = document.getElementById("color1").value;
+   // console.log("up color: " + colorr);
+
+//     if(colorr==''){
+//      document.getElementById("changecolor").style.color = "black";
      
-    }
-   //  else if(colorr<2000){
-   //   document.getElementById("bgCanvas").style.backgroundColor = "#88CCD1";
-   //  }
-   //  else if(colorr>2000){
-   //   document.getElementById("bgCanvas").style.backgroundColor = "#FEF987";
-   //  }
-    else if(colorr==2000){
-       document.getElementById("bgCanvas").style.backgroundColor = "#9bb7d4";
-    }
-    else if(colorr==2001){
-      document.getElementById("bgCanvas").style.backgroundColor = "#c74375";
-   }
-   else if(colorr==2002){
-      document.getElementById("bgCanvas").style.backgroundColor = "#bf1932";
-   }
-   else if(colorr==2003){
-      document.getElementById("bgCanvas").style.backgroundColor = "#7bc4c4";
-   }
-   else if(colorr==2004){
-      document.getElementById("bgCanvas").style.backgroundColor = "#e2583e";
-   }
-   else if(colorr==2005){
-      document.getElementById("bgCanvas").style.backgroundColor = "#53b0ae";
-   }
-   else if(colorr==2006){
-      document.getElementById("bgCanvas").style.backgroundColor = "#DECDBE";
-   }
-   else if(colorr==2007){
-      document.getElementById("bgCanvas").style.backgroundColor = "#9b1b30";
-   }
-   else if(colorr==2008){
-      document.getElementById("bgCanvas").style.backgroundColor = "#9b1b30";
-   }
-   else if(colorr==2009){
-      document.getElementById("bgCanvas").style.backgroundColor = "#f0c05a";
-   }
+//     }
+//    //  else if(colorr<2000){
+//    //   document.getElementById("bgCanvas").style.backgroundColor = "#88CCD1";
+//    //  }
+//    //  else if(colorr>2000){
+//    //   document.getElementById("bgCanvas").style.backgroundColor = "#FEF987";
+//    //  }
+//     else if(colorr==2000){
+//        document.getElementById("bgCanvas").style.backgroundColor = "#9bb7d4";
+//     }
+//     else if(colorr==2001){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#c74375";
+//    }
+//    else if(colorr==2002){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#bf1932";
+//    }
+//    else if(colorr==2003){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#7bc4c4";
+//    }
+//    else if(colorr==2004){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#e2583e";
+//    }
+//    else if(colorr==2005){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#53b0ae";
+//    }
+//    else if(colorr==2006){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#DECDBE";
+//    }
+//    else if(colorr==2007){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#9b1b30";
+//    }
+//    else if(colorr==2008){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#9b1b30";
+//    }
+//    else if(colorr==2009){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#f0c05a";
+//    }
 
 
-   else if(colorr==2010){
-      document.getElementById("bgCanvas").style.backgroundColor = "#45b5aa";
-   }
-   else if(colorr==2011){
-     document.getElementById("bgCanvas").style.backgroundColor = "#D94F70";
-  }
-  else if(colorr==2012){
-     document.getElementById("bgCanvas").style.backgroundColor = "#dd4124";
-  }
-  else if(colorr==2013){
-     document.getElementById("bgCanvas").style.backgroundColor = "#00997b";
-  }
-  else if(colorr==2014){
-     document.getElementById("bgCanvas").style.backgroundColor = "#ad5e99";
-  }
-  else if(colorr==2015){
-     document.getElementById("bgCanvas").style.backgroundColor = "#955251";
-  }
-  else if(colorr==2016){
-     document.getElementById("bgCanvas").style.backgroundColor = "#f7caca";
-  }
-  else if(colorr==2017){
-     document.getElementById("bgCanvas").style.backgroundColor = "#88b04b";
-  }
-  else if(colorr==2018){
-     document.getElementById("bgCanvas").style.backgroundColor = "#5f4b8b";
-  }
-  else if(colorr==2019){
-     document.getElementById("bgCanvas").style.backgroundColor = "#ff6f61";
-  }
-  else if(colorr==2020){
-   document.getElementById("bgCanvas").style.backgroundColor = "#0f4c81";
-}
-else if(colorr==2021){
-   document.getElementById("bgCanvas").style.backgroundColor = "yellow";
-}
-else if(colorr==2022){
-   document.getElementById("bgCanvas").style.backgroundColor = "#313d64";
-}
-else if(colorr==2023){
-   document.getElementById("bgCanvas").style.backgroundColor = "#D4C8EA";
-}
+//    else if(colorr==2010){
+//       document.getElementById("bgCanvas").style.backgroundColor = "#45b5aa";
+//    }
+//    else if(colorr==2011){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#D94F70";
+//   }
+//   else if(colorr==2012){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#dd4124";
+//   }
+//   else if(colorr==2013){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#00997b";
+//   }
+//   else if(colorr==2014){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#ad5e99";
+//   }
+//   else if(colorr==2015){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#955251";
+//   }
+//   else if(colorr==2016){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#f7caca";
+//   }
+//   else if(colorr==2017){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#88b04b";
+//   }
+//   else if(colorr==2018){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#5f4b8b";
+//   }
+//   else if(colorr==2019){
+//      document.getElementById("bgCanvas").style.backgroundColor = "#ff6f61";
+//   }
+//   else if(colorr==2020){
+//    document.getElementById("bgCanvas").style.backgroundColor = "#0f4c81";
+// }
+// else if(colorr==2021){
+//    document.getElementById("bgCanvas").style.backgroundColor = "yellow";
+// }
+// else if(colorr==2022){
+//    document.getElementById("bgCanvas").style.backgroundColor = "#313d64";
+// }
+// else if(colorr==2023){
+//    document.getElementById("bgCanvas").style.backgroundColor = "#D4C8EA";
+// }
+ }
+
+   let iconNum;
+
+ function icons() {
+   iconNum = document.getElementById("day1").value;
+    
  }
 
  function texts() {
@@ -171,69 +183,58 @@ else if(colorr==2023){
      }
  }
 
-//  //canvas settings
-//  const bgCanvas = document.getElementById("bgCanvas");
-//  const ctx = bgCanvas.getContext("2d");
-//  let coord = { x: 0, y: 0 };
- 
-//  document.addEventListener("mousedown", start);
-//  document.addEventListener("mouseup", stop);
-//  window.addEventListener("resize", resize);
- 
-//  resize();
- 
-//  function resize() {
-//    ctx.bgCanvas.width = window.innerWidth;
-//    ctx.bgCanvas.height = window.innerHeight;
-//  }
-//  function reposition(event) {
-//    coord.x = event.clientX - bgCanvas.offsetLeft;
-//    coord.y = event.clientY - bgCanvas.offsetTop;
-//  }
-//  function start(event) {
-//    document.addEventListener("mousemove", draw);
-//    reposition(event);
-//  }
-//  function stop() {
-//    document.removeEventListener("mousemove", draw);
-//  }
-//  function draw(event) {
-//    // ctx.beginPath();
-//    // ctx.linesWidth = 5;
-//    // ctx.linesCap = "round";
-//    // ctx.strokeStyle = "#ACD3ED";
-//    // ctx.moveTo(coord.x, coord.y);
-//    // reposition(event);
-//    // ctx.linesTo(coord.x, coord.y);
-//    // ctx.stroke();
-
-//    var x = document.createElement("IMG");
-//    x.setAttribute("src", "cloud.png");
-//    x.addEventListener('load', e => {
-//      var c = document.getElementById("bgCanvas");
-//      ctx.moveTo(coord.x, coord.y);
-//      reposition(event);
-//      ctx.linesTo(coord.x, coord.y);
-//      ctx.drawImage(x, 0, 0);
-
-
-     
-//    })
-//  }
+//p5drawing
 
 let img;
+let testColor;
+
+let r = 255;
+let g = 255;
+let b = 255;
+let imgArray = [];
+
 function preload(){
-   img = loadImage();
+   img = loadImage("cloud.png");
+   img2 = loadImage("img2.png");
  }
  
  function setup() {
    myDiv = createCanvas(windowWidth, windowHeight);
-   myDiv.parent('date');
+   myDiv.parent('bgCanvas');
+   // testColor = select('#color1');
+   // color1Input = createInput('');
+
  }
- 
+
+
+
  function draw() {
-   background(255,255,255,-1);
-   image(img, mouseX, mouseY);
+
+   // let colorr = testColor.html(color1Input.value());
+   background(r,g,b,7);
+
+   if (mouseIsPressed === true || iconNum == 1) {
+      
+      image(img, mouseX, mouseY);
+      }
+
+      if (mouseIsPressed === true || iconNum == 2) {
+      
+         image(img2, mouseX, mouseY);
+      }
+   
+   console.log(colorr);
+   
+   if(colorr == 2000){
+      r = 155;
+      g = 183;
+      b = 212;
+   }
+
+   
  }
+
+
+ 
  
  

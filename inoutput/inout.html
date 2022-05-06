@@ -21,19 +21,26 @@
 <body>
 
 <div class="menu">
+<!-- <div id = "color1"></div> -->
 <input type="year"  onkeyup="colors();" name="colors" id="color1" value="Year">
 <input type="year"  onkeyup="texts();" name="texts" id="month1" value="Month"> 
-<input type="year"  onkeyup="colors();" name="draws" id="day1" value="Day"> 
+<input type="year"  onkeyup="icons();" name="draws" id="day1" value="Day"> 
 </div>
 
-<div id="date">
+<!-- <div id="date">
 <button onclick="myFunction()" id="changecolor">Click</button>
 <button onclick="myFunction()" id="shape">Me</button>
 <button onclick="myFunction()" id="lines">!!!</button>
+</div> -->
+
+
+<div id = "bgCanvas">
+  <div id="date">
+    <button onclick="myFunction()" id="changecolor">Click</button>
+    <button onclick="myFunction()" id="shape">Me</button>
+    <button onclick="myFunction()" id="lines">!!!</button>
+  </div>
 </div>
-
-
-<div id = "bgCanvas"></div>
 <!-- <canvas id="bgCanvas"></canvas> -->
 
 
