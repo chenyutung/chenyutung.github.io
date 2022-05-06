@@ -1,0 +1,46 @@
+
+body{
+font-family: 'Secular One', sans-serif;
+margin: 0px;
+}
+
+.menu{
+display: flex;
+margin: auto;
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+}
+
+#changecolor{
+border: none;
+background-color: Transparent;
+font-family: 'Secular One', sans-serif;
+font-size: 60px;
+}
+
+#shape{
+border: none;
+background-color: Transparent;
+font-family: 'Secular One', sans-serif;
+font-size: 60px;
+}
+
+#line{
+border: none;
+background-color: Transparent;
+font-family: 'Secular One', sans-serif;
+font-size: 60px;
+}
+
+#canva{
+display: flex;
+background-color: Transparent;
+cursor: pointer;
+/* margin: auto; */
+width: 100%;
+height: 650px;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
