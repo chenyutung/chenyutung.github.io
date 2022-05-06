@@ -11,23 +11,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bubblegum+Sans&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto+Mono:wght@100;300;400;600;700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,400;0,8..144,600;0,8..144,800;0,8..144,900;1,8..144,200;1,8..144,300&family=Secular+One&display=swap" rel="stylesheet">
   
+  <!-- p5 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script> -->
+  
   <link rel="stylesheet" type="text/css" href="inout.css">
   <title>Input Output Events</title>
 </head>
 <body>
 
 <div class="menu">
-<input type="year"  onkeyup="color();" name="color" id="color1" value="Year">
-<input type="year"  onkeyup="text();" name="text" id="month1" value="Month"> 
-<input type="year"  onkeyup="color();" name="color" id="day1" value="Day"> 
+<input type="year"  onkeyup="colors();" name="colors" id="color1" value="Year">
+<input type="year"  onkeyup="texts();" name="texts" id="month1" value="Month"> 
+<input type="year"  onkeyup="colors();" name="draws" id="day1" value="Day"> 
 </div>
 
-
-<div id="canva">
+<div id="date">
 <button onclick="myFunction()" id="changecolor">Click</button>
 <button onclick="myFunction()" id="shape">Me</button>
-<button onclick="myFunction()" id="line">!!!</button>
+<button onclick="myFunction()" id="lines">!!!</button>
 </div>
+
+
+<div id = "bgCanvas"></div>
+<!-- <canvas id="bgCanvas"></canvas> -->
 
 
 
