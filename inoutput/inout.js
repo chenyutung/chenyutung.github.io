@@ -196,6 +196,36 @@ let imgArray = [];
 function preload(){
    img = loadImage("cloud.png");
    img2 = loadImage("img2.png");
+   img3 =loadImage("img3.png");
+   img4 = loadImage("img4.png");
+   img5 = loadImage("img5.png");
+   img6 =loadImage("img6.png");
+   img7 = loadImage("img7.png");
+   img8 = loadImage("img8.png");
+   img9 =loadImage("img9.png");
+   img10 = loadImage("img10.png");
+   img11 = loadImage("img11.png");
+   img12 =loadImage("img12.png");
+   img13 = loadImage("img13.png");
+   img14 = loadImage("img14.png");
+   img15 =loadImage("img15.png");
+   img16 = loadImage("img16.png");
+   img17 = loadImage("img17.png");
+   img18 =loadImage("img18.png");
+   img19 = loadImage("img19.png");
+   img20 = loadImage("img20.png");
+   img21 =loadImage("img21.png");
+   img22 = loadImage("img22.png");
+   img23 =loadImage("img23.png");
+   img24 = loadImage("img24.png");
+   img25 = loadImage("img25.png");
+   img26 =loadImage("img26.png");
+   img27 = loadImage("img27.png");
+   img28 = loadImage("img28.png");
+   img29 =loadImage("img29.png");
+   img30 = loadImage("img30.png");
+   img31 = loadImage("img31.png");
+
  }
  
  function setup() {
@@ -213,17 +243,126 @@ function preload(){
    // let colorr = testColor.html(color1Input.value());
    background(r,g,b,7);
 
+if(mouseIsPressed===true|| iconNum== ''){
 
-   if (mouseIsPressed === true || iconNum == 1) {
-      
+}
+   else if (mouseIsPressed === true || iconNum == 1) {  
       image(img, mouseX, mouseY);
       }
 
-      if (mouseIsPressed === true || iconNum == 2) {
-      
+   else if (mouseIsPressed === true || iconNum == 2) {
          image(img2, mouseX, mouseY);
       }
-   
+      
+   else  if (mouseIsPressed === true || iconNum == 3) {
+         image(img3, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 4) {
+      image(img4, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 5) {
+         image(img5, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 6) {
+         image(img6, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 7) {  
+      image(img7, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 8) {
+         image(img8, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 9) {
+         image(img9, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 10) {
+      image(img10, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 11) {
+         image(img11, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 12) {
+         image(img12, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 13) {  
+      image(img13, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 14) {
+      image(img14, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 15) {
+         image(img15, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 16) {
+         image(img16, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 17) {  
+      image(img17, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 18) {
+         image(img18, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 19) {
+         image(img19, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 20) {
+      image(img20, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 21) {  
+      image(img21, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 22) {
+         image(img22, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 23) {
+         image(img23, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 24) {
+      image(img24, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 25) {
+         image(img25, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 26) {
+         image(img26, mouseX, mouseY);
+      }
+   else if (mouseIsPressed === true || iconNum == 27) {  
+      image(img27, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 28) {
+         image(img28, mouseX, mouseY);
+      }
+      
+   else  if (mouseIsPressed === true || iconNum == 29) {
+         image(img29, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 30) {
+      image(img30, mouseX, mouseY);
+      }
+
+   else if (mouseIsPressed === true || iconNum == 31) {
+      image(img31, mouseX, mouseY);
+      }   
+
+
    console.log(colorr);
    
    if(colorr == 2000){
