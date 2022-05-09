@@ -196,7 +196,6 @@ let imgArray = [];
 function preload(){
    img = loadImage("cloud.png");
    img2 = loadImage("img2.png");
-   img3 = loadImage("raindow.png")
  }
  
  function setup() {
@@ -224,13 +223,6 @@ function preload(){
       
          image(img2, mouseX, mouseY);
       }
-      if (mouseIsPressed === true || iconNum == 3) {
-      
-         image(img3, mouseX, mouseY);
-         image.style.width = '30px';
-         image.style.height = 'auto';
-      }
-
    
    console.log(colorr);
    
