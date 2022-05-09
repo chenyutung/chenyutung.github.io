@@ -196,6 +196,7 @@ let imgArray = [];
 function preload(){
    img = loadImage("cloud.png");
    img2 = loadImage("img2.png");
+   img3 = loadImage("raindow.png")
  }
  
  function setup() {
@@ -213,6 +214,7 @@ function preload(){
    // let colorr = testColor.html(color1Input.value());
    background(r,g,b,7);
 
+
    if (mouseIsPressed === true || iconNum == 1) {
       
       image(img, mouseX, mouseY);
@@ -222,6 +224,13 @@ function preload(){
       
          image(img2, mouseX, mouseY);
       }
+      if (mouseIsPressed === true || iconNum == 3) {
+      
+         image(img3, mouseX, mouseY);
+         image.style.width = '30px';
+         image.style.height = 'auto';
+      }
+
    
    console.log(colorr);
    
@@ -230,8 +239,121 @@ function preload(){
       g = 183;
       b = 212;
    }
-
-   
+   if(colorr == 2001){
+      r = 199;
+      g = 67;
+      b = 117;
+   }
+   if(colorr == 2002){
+      r = 191;
+      g = 25;
+      b = 50;
+   }
+   if(colorr == 2003){
+      r = 123;
+      g = 196;
+      b = 196;
+   }
+   if(colorr == 2004){
+      r = 226;
+      g = 88;
+      b = 62;
+   }
+   if(colorr == 2005){
+      r = 83;
+      g = 176;
+      b = 174;
+   }
+   if(colorr == 2006){
+      r = 222;
+      g = 205;
+      b = 190;
+   }
+   if(colorr == 2007){
+      r = 155;
+      g = 35;
+      b = 53;
+   }
+   if(colorr == 2008){
+      r = 91;
+      g = 94;
+      b = 166;
+   }
+   if(colorr == 2009){
+      r = 239;
+      g = 192;
+      b = 80;
+   }
+   if(colorr == 2010){
+      r = 69;
+      g = 184;
+      b = 172;
+   }
+   if(colorr == 2011){
+      r = 214;
+      g = 80;
+      b = 118;
+   }
+   if(colorr == 2012){
+      r = 226;
+      g = 73;
+      b = 47;
+   }
+   if(colorr == 2013){
+      r = 0;
+      g = 155;
+      b = 119;
+   }
+   if(colorr == 2014){
+      r = 181;
+      g = 101;
+      b = 167;
+   }
+   if(colorr == 2015){
+      r = 255;
+      g = 218;
+      b = 182;
+   }
+   if(colorr == 2016){
+      r = 247;
+      g = 202;
+      b = 201;
+   }
+   if(colorr == 2017){
+      r = 136;
+      g = 176;
+      b = 75;
+   }
+   if(colorr == 2018){
+      r = 107;
+      g = 91;
+      b = 149;
+   }
+   if(colorr == 2019){
+      r = 255;
+      g = 111;
+      b = 97;
+   }
+   if(colorr == 2020){
+      r = 15;
+      g = 76;
+      b = 129;
+   }
+   if(colorr == 2021){
+      r = 245;
+      g = 223;
+      b = 77;
+   }
+   if(colorr == 2022){
+      r = 102;
+      g = 103;
+      b = 171;
+   }
+   if(colorr == 2023){
+      r = 212;
+      g = 200;
+      b = 234;
+   }
  }
 
 
