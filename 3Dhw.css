@@ -1,12 +1,13 @@
 html{
-    background-color: black;
+    background-color: #ECEAD9;
     color: white;
     margin: 0;
 }
 
 model-viewer{
-width: 80vh;
-height: 80vh;
+margin: auto;
+width: 90vh;
+height: 90vh;
 }
 
 .interaction-prompt{
