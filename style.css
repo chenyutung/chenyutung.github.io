@@ -1,9 +1,10 @@
 html {
     font-family: sans-serif;
-    background-color:#ECEAD9;
+    /* background-color:#ECEAD9; */
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='53' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>❗</text></svg>") 16 0,auto; /*!emojicursor.app*/
     max-width: 100%;
     max-height: 100%;
+
 }
   
 h1{
@@ -55,7 +56,7 @@ svg{
 }
 .menu1{
     display: flex;
-    margin-top: 50px;
+    margin-top: 80px;
     flex-direction: row;
     justify-content: space-between;
     z-index: 4;
@@ -68,16 +69,28 @@ svg{
     color: #837B3A;
     text-transform: uppercase;
 }
+.homeimgs{
+    /* width: 100%;
+    height: auto;
+    position: relative; */
+    position: absolute;
+    resize: both;
 
-.homeimg1{
+}
+/* .homeimgs div{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+} */
+#homeimg1{
     position: absolute;
     z-index: 1;
     filter: blur(5px) grayscale(80%);
     margin-top: 20px;
-    animation: scale 15s ease-out infinite;
+    /* animation: scale 15s ease-out infinite; */
 
 }
-.homeimg1:hover{
+#homeimg1:hover{
     filter: blur(0px);
     /* animation: colorchange 2s; */
 }
@@ -96,18 +109,13 @@ svg{
         transform: scale(0.8);
     }
   }
-
-
-
-
-
   .homeimg2{
     position: absolute;
     margin-left: 200px;
     margin-top: 250px;
     z-index: 1;
     filter: blur(5px) grayscale(100%);
-    animation: scale2 15s ease-out infinite;
+    /* animation: scale2 15s ease-out infinite; */
 }
 .homeimg2:hover{
     filter: blur(0px);
@@ -133,7 +141,7 @@ svg{
     margin-top: 0px;
     z-index: 1;
     filter: blur(2px) grayscale(100%);
-    animation: scale3 15s ease-out infinite;
+    /* animation: scale3 15s ease-out infinite; */
 }
 .homeimg3:hover{
     filter: blur(0px);
@@ -159,7 +167,7 @@ svg{
     margin-top: 260px;
     z-index: 1;
     filter: blur(5px) grayscale(100%);
-    animation: scale4 15s ease-out infinite;
+    /* animation: scale4 15s ease-out infinite; */
 }
 .homeimg4:hover{
     filter: blur(0px);
@@ -185,7 +193,7 @@ svg{
     margin-top: 60px;
     z-index: 1;
     filter: blur(5px) grayscale(100%);
-    animation: scale5 15s ease-out infinite;
+    /* animation: scale5 15s ease-out infinite; */
 }
 .homeimg5:hover{
     filter: blur(0px);
